@@ -616,6 +616,7 @@ section .carroUno .carroTres h2 {
   font-size: 1.5rem;
   text-align: center;
   transition: all 1s ease;
+  font-size: 1.3rem;
 }
 .esotericosUno .esotericosDos .esotericosTres:hover {
   transform: scale(1.1, 1.1);
@@ -798,6 +799,7 @@ section .carroUno .carroTres h2 {
     flex-direction: row;
     flex-wrap: nowrap;
     overflow: scroll;
+    padding: 20px;
   }
 
   .anilloUno .anilloDos {
@@ -805,6 +807,7 @@ section .carroUno .carroTres h2 {
     flex-direction: row;
     flex-wrap: nowrap;
     overflow: scroll;
+    padding: 20px;
   }
 
   .cadenaUno .cadenaDos {
@@ -812,6 +815,7 @@ section .carroUno .carroTres h2 {
     flex-direction: row;
     flex-wrap: nowrap;
     overflow: scroll;
+    padding: 20px;
   }
 
   .dijesUno .dijesDos {
@@ -819,6 +823,7 @@ section .carroUno .carroTres h2 {
     flex-direction: row;
     flex-wrap: nowrap;
     overflow: scroll;
+    padding: 20px;
   }
 
   .llaveroUno .llaveroDos {
@@ -826,6 +831,7 @@ section .carroUno .carroTres h2 {
     flex-direction: row;
     flex-wrap: nowrap;
     overflow: scroll;
+    padding: 20px;
   }
 
   .sueltaUno .sueltaDos {
@@ -833,6 +839,7 @@ section .carroUno .carroTres h2 {
     flex-direction: row;
     flex-wrap: nowrap;
     overflow: scroll;
+    padding: 20px;
   }
 
   .esotericosUno .esotericosDos {
@@ -840,6 +847,7 @@ section .carroUno .carroTres h2 {
     flex-direction: row;
     flex-wrap: nowrap;
     overflow: scroll;
+    padding: 20px;
   }
 
   .escallasUno .escallasDos {
@@ -847,6 +855,7 @@ section .carroUno .carroTres h2 {
     flex-direction: row;
     flex-wrap: nowrap;
     overflow: scroll;
+    padding: 20px;
   }
 
   header .imagenDos {
@@ -1321,7 +1330,7 @@ section .carroUno .carroTres h2 {
   }
 
   .pieUno {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .pieUno .pieDose {
     display: flex;

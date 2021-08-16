@@ -3,6 +3,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     overflow: scroll;
+    padding: 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -537,7 +538,7 @@
         }
     }
         .pieUno{
-        font-size:0.7rem;
+        font-size:0.8rem;
         .pieDose{
             display: flex;
             flex-direction:column;

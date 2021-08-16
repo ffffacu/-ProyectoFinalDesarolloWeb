@@ -180,10 +180,12 @@
     }
 }
 .esotericosUno{
+   
     .esotericosDos{
         @include catUno ();
         .esotericosTres{
             @include catDos ();
+            font-size: 1.3rem;
         }
         .esotericosTres:hover{
             @include catTres ();
