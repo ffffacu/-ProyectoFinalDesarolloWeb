@@ -223,18 +223,28 @@
         }
         
         .pieCatorse{
-            width: 60%;
-            margin-left: 20%;
-            margin-right: 20%;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
         }
         .pieTrece{
-            display: flex;
-            flex-direction: column;
-            padding: 0;
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            padding: 20px;
+            grid-template-areas: "pagos"
+            "migas";
             .pieOnce{
             margin: 0;
+            grid-area: migas;
+            nav{
+                ol{
+                    margin: 5px;
+                }
+            }
             }
             .pieSeis{
+                grid-area:pagos;
                 .pieSiete{
                     display: flex;
                     flex-direction: row;
@@ -340,6 +350,22 @@
         padding-right: 10%;
         font-size: 1rem;
     }
+.confirmacionUno{
+    height: 500px;
+        .confirmacionDos{
+        height: 300px;
+        width: 90%;
+            .confirmacionTres{
+                height: 100px;
+            }
+            .confirmacionCuatro{
+            font-size: 1.8rem;
+            }
+            .confirmacionSeis{
+                font-size: 1rem;
+            }
+        }
+    }
 }
 @media only screen and (min-width: 769px) and (max-width: 1080px){
     body {
@@ -366,10 +392,10 @@
     }
     .inicioCarusel{
         padding: 10px;
-        height: 500px;
+        height: 400px;
         width: 100%;
         .inicioCaruselDos{
-            height: 450px;
+            height: 350px;
         }
         .inicioCaruselTres{
             width: 100%;
@@ -590,7 +616,6 @@
                 }
             }
         }
-        
         .pieCatorse{
             width: 80%;
             margin-left: 10%;
@@ -618,12 +643,20 @@
             }
         }
     }
-}
-@media only screen and (min-width: 1450px){
-    footer{
-        .pie{
-            padding: 4%;
-            margin-right: 12%;
+    .confirmacionUno{
+        height: 500px;
+            .confirmacionDos{
+            height: 300px;
+            width: 90%;
+                .confirmacionTres{
+                    height: 100px;
+                }
+                .confirmacionCuatro{
+                font-size: 2rem;
+                }
+                .confirmacionSeis{
+                    font-size: 1.2rem;
+                }
+            }
         }
-    }
 }
