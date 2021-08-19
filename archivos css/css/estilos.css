@@ -152,8 +152,8 @@ header nav .barraCuatro {
 }
 
 .loginCuatro {
-  padding-left: 40%;
-  padding-right: 40%;
+  padding-left: 35%;
+  padding-right: 35%;
   padding-bottom: 5%;
 }
 .loginCuatro .loginUno {
@@ -1325,6 +1325,38 @@ section .carroUno .carroTres h2 {
   }
   main .catalogoCuatro .catDos:hover {
     transform: scale(1.1, 1.1);
+  }
+
+  .arosTres .arosUno .arosDos {
+    margin: 30px;
+  }
+
+  .anilloUno .anilloDos .anilloTres {
+    margin: 30px;
+  }
+
+  .cadenaUno .cadenaDos .cadenaTres {
+    margin: 30px;
+  }
+
+  .dijesUno .dijesDos .dijesTres {
+    margin: 30px;
+  }
+
+  .llaveroUno .llaveroDos .llaveroTres {
+    margin: 30px;
+  }
+
+  .sueltaUno .sueltaDos .sueltaTres {
+    margin: 30px;
+  }
+
+  .esotericosUno .esotericosDos .esotericosTres {
+    margin: 30px;
+  }
+
+  .escallasUno .escallasDos .escallasTres {
+    margin: 30px;
   }
 
   main {
